@@ -11,7 +11,8 @@ class App extends Component {
         <h1 className="App-title">Welcome to Portfolio Builder</h1>
         </header>
         <p className="App-intro">
-          This is the beginning of a fantastic application
+          This is the beginning of a fantastic application that will
+          revolutionise the world
         </p>
       </div>
     );
