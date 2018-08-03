@@ -1,0 +1,33 @@
+.backgrndGrowth1 {
+  width: 45%;
+  background-color: #FCFEFF;
+  box-shadow: 1px 2px 6px 1px rgba(102, 102, 102, .2);
+  padding-bottom: 400px;
+  border-radius: 20px;
+  position: relative;
+  top: -270px;
+  left: 10%;
+}
+
+.backgrndGrowth2 {
+  width: 25%;
+  height: 20%;
+  position: relative;
+  top: 30px;
+  left: 60%;
+  background-color: #FCFEFF;
+  box-shadow: 1px 2px 6px 1px rgb(102, 102, 102, .2);
+  padding-bottom: 300px;
+  border-radius: 20px;
+}
+
+.backgrndGrowth3 {
+  width: 300px;
+  position: relative;
+  top: -350px;
+  left: 62.5%;
+  background-color: #FCFEFF;
+  box-shadow: 1px 2px 6px 1px rgb(102, 102, 102, .2);
+  padding-bottom: 300px;
+  border-radius: 20px;
+}

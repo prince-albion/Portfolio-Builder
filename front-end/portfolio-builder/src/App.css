@@ -1,28 +1,41 @@
+@import "./styles/canvas_styles.css";
+@import "./styles/slider_styles.css";
+
 .App {
+  position: relative;
   text-align: center;
+  background-color: rgba(242, 230, 220, .2);
+  height: 100%;
+  width: 100%;
 }
 
 .App-logo {
-  animation: App-logo-spin infinite 20s linear;
   height: 80px;
 }
 
 .App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
+  background-color: #EBEBEB;
+  height: 40px;
+  padding-bottom: 20px;
+  padding-top: 5px;
   color: white;
+  font: Arial;
+  font-weight: bold;
+  font-variant: small-caps;
+  font-size: 15px;
 }
 
 .App-title {
   font-size: 1.5em;
+  color: #666666;
+  vertical-align: center;
+
+}
+
+.Space {
+    padding: 200px;
 }
 
 .App-intro {
   font-size: large;
-}
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
 }
