@@ -8,9 +8,8 @@ class Slider7 extends Component {
       number: 50
     }
     this.ab = 0
-    this.value2 = this.state
-    this.value3 = this.state
 
+    {/*Fixed UK and Developed (exc. UK) values*/}
     this.uk = .1988
     this.devxuk = .511
   }

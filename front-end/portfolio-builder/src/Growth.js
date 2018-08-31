@@ -3,6 +3,7 @@ import './App.css'
 import SlideSection1 from "./SlideSection1"
 import SlideSection2 from "./SlideSection2"
 
+{/*Growth Sliders*/}
 class Growth extends Component {
 
   constructor(props) {
@@ -23,6 +24,9 @@ class Growth extends Component {
     return (
       <div className="sliderSection2">
         <h2 className="section2Title">Growth</h2>
+
+        {/*Sliders for Property/Equities, Developed/Emerging,
+          UK/International*/}
         <SlideSection1
             eq={equities}
             prop={property}
@@ -33,6 +37,9 @@ class Growth extends Component {
             growth={growth}
 
         />
+
+        {/*Sliders for Emerging, UK and International (exc. UK)
+          tilts to value and small*/}
         <SlideSection2
             uk={uk}
             devxuk={devxuk}

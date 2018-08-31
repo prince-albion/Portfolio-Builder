@@ -8,8 +8,8 @@ class Slider5 extends Component {
       number: 50
     }
     this.ab = 0
-    this.value2 = this.state
-    this.value3 = this.state
+    
+    {/*Fixed emerging markets value*/}
     this.em = .29
   }
 

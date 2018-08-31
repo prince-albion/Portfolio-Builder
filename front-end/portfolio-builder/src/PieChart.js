@@ -23,6 +23,8 @@ class PieChart extends Component {
   }
 
   render() {
+
+    {/*Data for the pie chart*/}
     const data = [
         { x: "UK - Market", y: 9.14 },
         { x: "UK - Small", y: 7.16 },
@@ -41,6 +43,7 @@ class PieChart extends Component {
 
     const radius = Math.min(dimensions.width, dimensions.height) / 2
 
+    {/*SVG object for the pie chart*/}
     return (
       <svg className="Graph" width={"100%"} height={dimensions.height} >
 

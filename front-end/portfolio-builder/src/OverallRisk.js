@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import './App.css'
 
+{/*Overall Growth/Defensive sliders*/}
 class OverallRisk extends Component {
   constructor(props) {
     super(props);

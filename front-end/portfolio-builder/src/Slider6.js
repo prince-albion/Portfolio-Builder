@@ -8,8 +8,7 @@ class Slider6 extends Component {
       number: 50
     }
     this.ab = 0
-    this.value2 = this.state
-    this.value3 = this.state
+    {/*Fixed UK and Developed (exc. UK) values*/}
     this.uk = .1988
     this.devxuk = .511
   }
@@ -23,6 +22,8 @@ class Slider6 extends Component {
   render() {
     let { number } = this.state
     this.ab = 100-number
+
+    {/*Computing values for UK and Developed (exc. UK) tilts*/}
     let uk = this.uk/2
     let devxuk = this.devxuk/2
 

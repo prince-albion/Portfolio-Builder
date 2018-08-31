@@ -26,7 +26,10 @@ class slideSecton1 extends Component {
 
   }
 
+
   handleValue1Change(value) {
+    {/*Functions to save the current state of a slider
+      to be used in sliders that rely on that state's value*/}
     this.setState({equities: value})
   }
 
@@ -38,7 +41,7 @@ class slideSecton1 extends Component {
     this.setState({uk: value})
   }
   render() {
-
+    {/*Calculated variables based on slider positions*/}
     let equities = this.state.equities*this.growth
     let property = (100-this.state.equities)*this.growth
     let developed = (equities/100)*this.state.developed

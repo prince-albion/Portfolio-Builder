@@ -4,6 +4,7 @@ import OverallRisk from './OverallRisk';
 import Growth from './Growth';
 import Defensive from './Defensive'
 
+{/*Slider container */}
 class ContainerS extends Component {
   render() {
     let growth = 1
