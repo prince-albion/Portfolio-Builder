@@ -6,30 +6,26 @@
   background-color: rgba(3, 62, 90, .3);
   color: #EBEBEB;
   padding-bottom: 10px;
-  position: relative;
-  top: -200px;
+  grid-column-start: 1;
+  grid-column-end:   3;
 }
 
 .sliderSection2 {
-  width: 50%;
+  width: 100%;
   text-align: center;
   background-color: rgba(0, 119, 163, .2);
   color: #666666;
-  padding-bottom: 200px;
-  position: relative;
-  top: -220px;
+  padding-bottom: 20px;
+  display: grid;
 
 }
 
 .sliderSection3 {
-  width: 50%;
+  width: 100%;
   text-align: center;
   background-color: rgba(235, 235, 235);
   color: #0077A3;
   padding-bottom: 132px;
-  position: relative;
-  top: -963.5px;
-  left: 50%;
 }
 
 .section1Title {

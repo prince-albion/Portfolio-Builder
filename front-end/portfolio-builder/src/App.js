@@ -1,10 +1,8 @@
 import React, { Component } from 'react';
 import './App.css';
-import GrowthCanvas1 from './GrowthCanvas1';
-import GrowthCanvas2 from './GrowthCanvas2';
-import OverallRisk from './OverallRisk';
-import Growth from './Growth';
-import Defensive from './Defensive'
+import GrowthCanvas from './GrowthCanvas';
+import AllocCanvas from './AllocCanvas';
+import ContainerS from './ContainerS';
 
 
 class App extends Component {
@@ -15,13 +13,10 @@ class App extends Component {
         <h1 className="App-title">Portfolio Builder</h1>
         </header>
         <div>
-          <GrowthCanvas2 />
-          <GrowthCanvas1 />
-          <OverallRisk />
-          <Growth />
-          <Defensive />
+          <AllocCanvas />
+          <GrowthCanvas />
+          <ContainerS />
         </div>
-        <div className="Space"></div>
       </div>
     );
   }

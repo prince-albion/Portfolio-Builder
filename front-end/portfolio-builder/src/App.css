@@ -1,5 +1,6 @@
 @import "./styles/canvas_styles.css";
 @import "./styles/slider_styles.css";
+@import "./styles/container_styles.css";
 
 .App {
   position: relative;
@@ -32,9 +33,7 @@
 
 }
 
-.Space {
-    padding: 200px;
-}
+
 
 .App-intro {
   font-size: large;

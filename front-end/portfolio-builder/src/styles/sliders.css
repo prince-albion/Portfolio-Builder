@@ -28,11 +28,10 @@
   height: 5px;
   background-color: #666666;
   outline: none;
-  position: relative;
-  left: 20%;
   opacity: .4;
   -webkit-transition: .2s;
-  transition: opacity .2s
+  transition: opacity .2s;
+  float: right;
 }
 
 .slider21:hover {
@@ -46,6 +45,8 @@
   background-color: #EBEBEB;
   border-radius: 50%;
   cursor: pointer;
+  -webkit-transition: .2s;
+  transition: opacity .2s
 }
 
 .slider22 {
@@ -57,9 +58,6 @@
   opacity: .4;
   -webkit-transition: .2s;
   transition: opacity .2s;
-  position: relative;
-  top: -200px;
-  right: 20%;
 }
 
 .slider22:hover {

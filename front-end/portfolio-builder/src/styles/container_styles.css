@@ -1,0 +1,9 @@
+.sliderContainer {
+  display: grid;
+
+}
+
+.Graph {
+  display: block;
+  margin: auto;
+}
